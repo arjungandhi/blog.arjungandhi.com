@@ -5,7 +5,7 @@ draft: false
 slug: "hello-world"
 description: "My First Post"
 keywords: ["hello-world","why"]
-draft: true
+draft: false
 math: false
 toc: true
 ---
