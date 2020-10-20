@@ -32,6 +32,11 @@ jobs:
       - name: Build
         run: hugo --minify
       
+      - run: 'echo "$AWS_ACCESS_KEY_ID" > key'
+        shell: bash
+        env:
+          AWS_ACCESS_KEY_ID: $ {{ secrets.ACCESSKEY }}
+
       # Deploys built website to S3
       - name: Deploy to S3
         run: hugo deploy --force --maxDeletes -1 --invalidateCDN
