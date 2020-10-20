@@ -2,4 +2,4 @@
 # Hugo default output directory
 /public
 
-.vscode:
+.vscode
