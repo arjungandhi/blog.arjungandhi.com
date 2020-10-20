@@ -10,11 +10,17 @@ on:
   pull_request:
     branches: [ master ]
 jobs:
+
+
   build:
     name: Build and Deploy
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+      with:
+          submodules: true
+
+
           # Sets up Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
