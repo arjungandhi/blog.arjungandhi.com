@@ -178,7 +178,7 @@ jobs:
 
 For this to work you will need to add AWS access keys and Cloudflare keys as a [encrypted secret](https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets)
 
-## 3. Closing
+## Closing
 
 Hopefully this brief tutorial helps some one, I know it was kind of a pain to find all this info when I tried setting this up. If you have any questions feel free to reach out to me and enjoy your brand new blog!
 
