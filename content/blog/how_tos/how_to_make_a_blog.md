@@ -5,7 +5,7 @@ slug: "how_to_make_a_blog"
 description: "How and Why I made this blog"
 keywords: ["hugo", "aws", "github", "blog"]
 draft: false
-tags: ["web development"]
+tags: ["web dev"]
 math: false
 toc: true
 ---
@@ -56,9 +56,9 @@ Add it to the `config.toml`
 ```bash
 $ echo 'theme = "codex"' >> config.toml
 ```
-### 5. Edit _index.html to change over titles and such
+### 5. Yoink the example site
 
-Just change over the stuff in _index.html to setup your site
+Go steal all of the code that makes the example theme of your site, trust me its easier, modify them as needed.
 
 
 ### 6. Copy over the example post files and modify

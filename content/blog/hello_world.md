@@ -4,7 +4,7 @@ date: 2020-10-20T05:43:53-04:00
 draft: false
 slug: "hello-world"
 description: "My First Post"
-keywords: ["hello-world","why"]
+keywords: ["hello_world","why"]
 draft: false
 math: false
 toc: true
